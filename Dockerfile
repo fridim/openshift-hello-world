@@ -10,5 +10,5 @@ ADD start.sh /start.sh
 RUN chmod +x /start.sh
 COPY www/ /www/
 
-CMD /start.sh 
+CMD sleep 202000
 EXPOSE 80
